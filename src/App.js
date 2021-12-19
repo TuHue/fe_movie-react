@@ -2,6 +2,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
 import CRoutes from "./config/Routes";
 import CompHeader from "./components/Header/Header";
+import CompFooter from "./components/Footer/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -10,6 +11,7 @@ function App() {
           <>
             <CompHeader />
             <CRoutes />
+            <CompFooter/>
           </>
         )}
       />

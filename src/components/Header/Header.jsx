@@ -1,4 +1,4 @@
-import React, { useEffect,useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './header.scss';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/tmovie.png'
